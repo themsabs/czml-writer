@@ -1,0 +1,14 @@
+{
+  "name": "czml",
+  "version": "0.0.1",
+  "description": "A package for creating CZML orbits",
+  "author": "Matthew Sabatini <matt.sabs@gmail.com>",
+  "main": "lib/orbit.js",
+  "dependencies": {
+    "kepler.js": "github:jordanstephens/kepler.js",
+    "sync-request": "^6.0.0",
+    "tle": "^1.2.3",
+    "unzip": "^0.1.11"
+  },
+  "license": "MIT"
+}
