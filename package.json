@@ -1,9 +1,13 @@
 {
-  "name": "czml",
-  "version": "0.0.1",
+  "name": "czml-writer",
+  "version": "1.0.0",
   "description": "A package for creating CZML orbits",
   "author": "Matthew Sabatini <matt.sabs@gmail.com>",
-  "main": "lib/orbit.js",
+  "main": "lib/czml.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/themsabs/czml-writer"
+  },
   "dependencies": {
     "kepler.js": "github:jordanstephens/kepler.js",
     "sync-request": "^6.0.0",
