@@ -1,6 +1,6 @@
 {
   "name": "czml-writer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A package for creating CZML orbits",
   "author": "Matthew Sabatini <matt.sabs@gmail.com>",
   "main": "lib/czml.js",

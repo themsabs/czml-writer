@@ -2,6 +2,8 @@
 
 From keplerian elements:
 ```
+var czml = require("czml-writer");
+
 var orbit = new czml.orbit.fromParams({
     apogee: 426.9, // km
     perigee: 416.2, // km
@@ -14,6 +16,8 @@ var output = orbit.czml();
 
 From two-line elements
 ```
+var czml = require("czml-writer");
+
 var tle = 'NOAA 14\n' +
     '1 23455U 94089A   97320.90946019  .00000140  00000-0  10191-3 0  2621\n' +
     '2 23455  99.0090 272.6745 0008546 223.1686 136.8816 14.11711747148495';
